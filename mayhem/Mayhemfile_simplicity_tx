@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-simplicity-tx
+cmds:
+  - cmd: /mayhem/fuzz_simplicity_tx
+    libfuzzer: true
+    timeout: 5

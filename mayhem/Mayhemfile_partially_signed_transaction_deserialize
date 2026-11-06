@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-partially-signed-transaction-deserialize
+cmds:
+  - cmd: /mayhem/fuzz_partially_signed_transaction_deserialize
+    libfuzzer: true
+    timeout: 5

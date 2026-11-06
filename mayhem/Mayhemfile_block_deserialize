@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-block-deserialize
+cmds:
+  - cmd: /mayhem/fuzz_block_deserialize
+    libfuzzer: true
+    timeout: 5

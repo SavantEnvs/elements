@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-miniscript-string
+cmds:
+  - cmd: /mayhem/fuzz_miniscript_string
+    libfuzzer: true
+    timeout: 5

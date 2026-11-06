@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-script-interpreter
+cmds:
+  - cmd: /mayhem/fuzz_script_interpreter
+    libfuzzer: true
+    timeout: 5

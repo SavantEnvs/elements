@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-transaction
+cmds:
+  - cmd: /mayhem/fuzz_transaction
+    libfuzzer: true
+    timeout: 5

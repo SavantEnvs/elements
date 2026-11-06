@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-addrman
+cmds:
+  - cmd: /mayhem/fuzz_addrman
+    libfuzzer: true
+    timeout: 5
