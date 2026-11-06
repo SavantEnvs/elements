@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-netaddress
+cmds:
+  - cmd: /mayhem/fuzz_netaddress
+    libfuzzer: true
+    timeout: 5

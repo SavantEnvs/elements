@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-process-message
+cmds:
+  - cmd: /mayhem/fuzz_process_message
+    libfuzzer: true
+    timeout: 5

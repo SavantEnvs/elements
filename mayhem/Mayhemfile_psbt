@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-psbt
+cmds:
+  - cmd: /mayhem/fuzz_psbt
+    libfuzzer: true
+    timeout: 5

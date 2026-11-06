@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-block
+cmds:
+  - cmd: /mayhem/fuzz_block
+    libfuzzer: true
+    timeout: 5

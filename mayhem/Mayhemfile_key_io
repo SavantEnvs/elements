@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-key-io
+cmds:
+  - cmd: /mayhem/fuzz_key_io
+    libfuzzer: true
+    timeout: 5

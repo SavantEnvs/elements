@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-decode-tx
+cmds:
+  - cmd: /mayhem/fuzz_decode_tx
+    libfuzzer: true
+    timeout: 5

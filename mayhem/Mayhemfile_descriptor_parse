@@ -1,0 +1,6 @@
+project: savantenvs/elements
+target: fuzz-descriptor-parse
+cmds:
+  - cmd: /mayhem/fuzz_descriptor_parse
+    libfuzzer: true
+    timeout: 5
